@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float nota1, nota2, nota3, media;
+    string nome, sobrenome, turma;
+
+    cout << "========== SISTEMA DE MEDIAS DE ALUNOS ==========" << endl;
+
+    cout << "DIGITE O NOME DO ALUNO:" << endl;
+    cin>> nome;
+
+    cout<< "DIGITE O SOBRENOME DO ALUNO:" << endl;
+    cin>> sobrenome;
+
+    cout<< "DIGITE A TURMA DO ALUNO:" << endl;
+    cin>> turma;
+
+    cout<< "DIGITE A NOTA 1 DO ALUNO:" <<endl;
+    cin>> nota1;
+
+    cout<< "DIGITE A NOTA 2 DO ALUNO:" <<endl;
+    cin>> nota2;
+
+    cout<< "DIGITE A NOTA 3 DO ALUNO:" <<endl;
+    cin>> nota3;
+
+    media = (nota1 + nota2 + nota3)/3;
+
+    cout<< " A MEDIA DO ALUNO " << nome;
+    cout<< " " <<sobrenome;
+    cout<< " DA TURMA " << turma;
+    cout<< " EH: " << media;
+
+
+    return 0;
+}
